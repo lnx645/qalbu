@@ -4,14 +4,20 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "6.14.0",
+    "@pinia/nuxt": "0.11.3",
+    "@tailwindcss/vite": "^4.1.18",
+    "@vueuse/nuxt": "14.1.0",
+    "motion-v": "^1.9.0",
     "nuxt": "^4.2.2",
+    "pinia": "^3.0.4",
+    "tailwindcss": "^4.1.18",
     "vue": "^3.5.27",
     "vue-router": "^4.6.4"
   }

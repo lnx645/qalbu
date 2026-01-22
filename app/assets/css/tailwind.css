@@ -1,3 +1,28 @@
+@import "tailwindcss";
 body {
   @apply bg-gray-100;
+}
+
+@theme {
+  --color-primary: #111340;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-from .bg-white,
+.slide-leave-to .bg-white {
+  transform: translateX(-100%);
+}
+
+.slide-enter-to .bg-white,
+.slide-leave-from .bg-white {
+  transform: translateX(0);
 }
