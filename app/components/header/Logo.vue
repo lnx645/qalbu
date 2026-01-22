@@ -1,6 +1,10 @@
 <template>
   <h2 class="text-xl font-bold">
-    <img width="60" :src="logo" alt="" />
+    <img
+      width="60"
+      :src="'https://cache.lahelu.com/permanent/logo-256.png'"
+      alt=""
+    />
   </h2>
 </template>
 <script setup lang="ts">
