@@ -1,20 +1,24 @@
 <template>
-  <div class="flex p-3 space-y-2 flex-col">
-    <MenuItem href="home">
+  <div class="flex p-3 flex-col">
+    <MenuItem href="/">
       <IconsHome class="text-xl" />
-      <span class="font-semibold">Beranda</span>
+      <span>Beranda</span>
     </MenuItem>
-    <MenuItem href="home">
+    <MenuItem href="/transaksi">
       <IconsInvoice class="text-xl" />
-      <span class="font-semibold">Riwayat Transaksi</span>
+      <span>Riwayat Transaksi</span>
     </MenuItem>
     <MenuItem href="home">
       <IconsPrice class="text-xl" />
-      <span class="font-semibold">Daftar Harga</span>
+      <span>Daftar Harga</span>
     </MenuItem>
     <MenuItem href="home">
       <IconsGift class="text-xl" />
-      <span class="font-semibold">Klaim Promo</span>
+      <span>Klaim Promo</span>
+    </MenuItem>
+    <MenuItem href="home">
+      <IconsArticle class="text-xl" />
+      <span>Informasi & Berita</span>
     </MenuItem>
   </div>
 </template>

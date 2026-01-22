@@ -23,6 +23,7 @@
             <div class="flex px-2 items-center">
               <HeaderLogo class="p-4" />
               <div class="ml-auto">
+                {{ nav }}
                 <HeaderMenuToggle @on-open-menu="closeMenu" mode="close" />
               </div>
             </div>
@@ -71,4 +72,13 @@ onMounted(() => {
 onUnmounted(() => {
   document.body.style.overflow = "";
 });
+
+const route = useRoute();
+
+watch(
+  () => route.fullPath,
+  () => {
+    store.close()
+  },
+);
 </script>
