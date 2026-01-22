@@ -1,23 +1,23 @@
 <template>
   <div class="flex p-3 flex-col">
     <MenuItem href="/">
-      <IconsHome class="text-xl" />
+      <IconsHome class="text-xl font-medium" />
       <span>Beranda</span>
     </MenuItem>
     <MenuItem href="/transaksi">
-      <IconsInvoice class="text-xl" />
-      <span>Riwayat Transaksi</span>
+      <IconsQuran class="text-xl font-medium" />
+      <span>Al-Qur'an</span>
     </MenuItem>
     <MenuItem href="home">
-      <IconsPrice class="text-xl" />
-      <span>Daftar Harga</span>
+      <IconsQuran2 class="text-xl font-medium" />
+      <span>Juz'Amma</span>
     </MenuItem>
     <MenuItem href="home">
-      <IconsGift class="text-xl" />
-      <span>Klaim Promo</span>
+      <IconsPrayerTime class="text-xl font-medium" />
+      <span>Jadwal Imsyakiah</span>
     </MenuItem>
     <MenuItem href="home">
-      <IconsArticle class="text-xl" />
+      <IconsDiscusion class="text-xl font-medium" />
       <span>Informasi & Berita</span>
     </MenuItem>
   </div>

@@ -5,23 +5,11 @@
         <img :src="slide" alt="" />
       </div>
     </Slide>
-    <template #addons>
-      <Navigation>
-        <template #prev>
-          <IconButton class="text-xs" :icon="ArrowLeft" />
-        </template>
-        <template #next>
-          <IconButton class="text-xs" :icon="ArrowRight" />
-        </template>
-      </Navigation>
-    </template>
   </Carousel>
 </template>
 <script setup lang="ts">
 import "vue3-carousel/carousel.css";
-import ArrowLeft from "~/components/icons/ArrowLeft.vue";
-import ArrowRight from "~/components/icons/ArrowRight.vue";
-import { Carousel, Slide, Navigation } from "vue3-carousel";
+import { Carousel, Slide } from "vue3-carousel";
 const carouselConfig = {
   itemsToShow: 1,
   wrapAround: true,
