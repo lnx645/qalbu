@@ -38,7 +38,7 @@ const handleError = () => {
       <div class="flex justify-center gap-3 pt-4">
         <button
           @click="handleError"
-          class="px-4 py-2 rounded-lg bg-red-500 text-white text-sm font-medium hover:bg-red-600 active:scale-95 transition"
+          class="px-4 py-2 rounded-lg bg-primary text-white text-sm font-medium hover:bg-red-600 active:scale-95 transition"
         >
           Kembali ke Beranda
         </button>

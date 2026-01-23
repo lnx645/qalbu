@@ -5,6 +5,7 @@ export type WorkItemsType = {
   image: string;
   cover?: string;
   author?: string;
+  slug: string;
   createdAt?: string;
   type: WorkType;
 };

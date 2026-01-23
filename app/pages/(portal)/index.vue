@@ -8,10 +8,7 @@ import "vue3-carousel/carousel.css";
 <template>
   <div class="container flex flex-col space-y-4 py-3 mx-auto px-0 lg:px-26">
     <section v-for="i in ['Populer', 'Cerpen', 'Terbaru']" :key="i">
-      <div class="mb-4">
-        <h1 class="text-2xl font-primary font-bold">{{ i }}</h1>
-      </div>
-
+      <SectionsLabelTitle :title="i" />
       <Carousel
         v-bind="{
           itemsToShow: 2,
@@ -24,19 +21,16 @@ import "vue3-carousel/carousel.css";
           gap: 3,
           pauseAutoplayOnHover: true,
 
-          // Responsive Breakpoints
           breakpoints: {
             768: {
               itemsToShow: 2.5,
               snapAlign: 'center',
             },
-            // Laptop/Desktop (1024px ke atas)
             1024: {
               gap: 4,
-              itemsToShow: 6, // Menampilkan 3 full + 1 setengah
-              snapAlign: 'start', // Di desktop biasanya lebih enak align kiri (start)
+              itemsToShow: 6,
+              snapAlign: 'start',
             },
-            // Layar Lebar (1280px ke atas)
             1280: {
               itemsToShow: 6,
               gap: 6,
@@ -45,8 +39,11 @@ import "vue3-carousel/carousel.css";
           },
         }"
       >
-        <Slide class="py-3" v-for="(item, index) in data">
-          <WorkItem v-if="!pending" :key="index" :item="item" />
+        <Slide v-if="!pending" class="py-3 pt-0" v-for="(item, index) in data">
+          <WorkItem :key="index" :item="item" />
+        </Slide>
+        <Slide class="py-3 pt-0" v-else v-for="i in 6" :key="i">
+          <WorkItemLazyLoading />
         </Slide>
         <template #addons>
           <Navigation />

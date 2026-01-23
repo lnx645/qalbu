@@ -18,14 +18,15 @@ body {
 }
 /* rgb(247, 247, 248) */
 :root {
-  --color-secondary: #666666;
+  --color-secondary: #ebebeb;
   --color-foreground: #ffffff;
-  --color-primary: #ff7f50;
+  --color-primary: #001a56;
   --height-header: 3.5rem;
 }
 @theme {
   --font-logo: "Clarendon-XBold";
   --font-primary: "Clarendon-Bold";
+  --font-roboto: "Roboto";
   --color-secondary: var(--color-secondary);
   --color-foreground: var(--color-foreground);
   --color-primary: var(--color-primary);

@@ -1,7 +1,7 @@
 export enum WorkType {
-  CERITA_PENDEK = "Cerita Pendek",
+  CERITA_PENDEK = "Cerpen",
   PUISI = "Puisi",
   NOVEL = "Novel",
   ARTIKEL = "Artikel",
-  FILM_SCRIPT = "Film Script",
+  FILM_SCRIPT = "FilmScript",
 }

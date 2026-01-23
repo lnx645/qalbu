@@ -15,54 +15,63 @@ const IMAGES = [
 
 const WORKS = [
   {
+    slug: "naga-tersembunyi-agung-di",
     author: "dadan_h",
     title: "Naga Tersembunyi Agung di",
     category: "Fantasy",
     type: WorkType.CERITA_PENDEK,
   },
   {
+    slug: "the-strongest-system",
     title: "The Strongest System",
     category: "Fantasy",
     author: "dadan_h",
     type: WorkType.PUISI,
   },
   {
+    slug: "shadows-of-eternity",
     title: "Shadows of Eternity",
     category: "Fantasy",
     author: "dadan_h",
     type: WorkType.NOVEL,
   },
   {
+    slug: "naga-tersembunyi-agung-di-kota",
     title: "Naga Tersembunyi Agung di Kota",
     category: "Action",
     author: "dadan_h",
     type: WorkType.FILM_SCRIPT,
   },
   {
+    slug: "mystic-chronicles",
     title: "Mystic Chronicles",
     category: "Fantasy",
     author: "dadan_h",
     type: WorkType.CERITA_PENDEK,
   },
   {
+    slug: "celestial-warriors",
     title: "Celestial Warriors",
     category: "Action",
     author: "dadan_h",
     type: WorkType.CERITA_PENDEK,
   },
   {
+    slug: "eclipse-kingdom",
     title: "Eclipse Kingdom",
     category: "Fantasy",
     author: "dadan_h",
     type: WorkType.CERITA_PENDEK,
   },
   {
+    slug: "crimson-tides",
     title: "Crimson Tides",
     category: "Adventure",
     author: "dadan_h",
     type: WorkType.CERITA_PENDEK,
   },
   {
+    slug: "aku-sudah-berjanji",
     author: "dadan_h",
     title: "Aku Sudah Berjanji",
     category: "Drama",
