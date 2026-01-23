@@ -1,11 +1,35 @@
 @import "tailwindcss";
-body {
-  @apply bg-gray-100;
-  font-family: "Poppins", sans-serif;
+
+@font-face {
+  font-family: "Clarendon-Bold";
+  src: url("../fonts/Clarendon-Bold.ttf") format("ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Clarendon-XBold";
+  fontweight: 800;
+  src: url("../fonts/Clarendon-Xbold-webfont.ttf") format("ttf");
+  font-display: swap;
 }
 
+body {
+  @apply bg-foreground;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --color-secondary: #666666;
+  --color-foreground: rgb(247, 247, 248);
+  --color-primary: #ff7f50;
+  --height-header: 3.5rem;
+}
 @theme {
-  --color-primary: #013457;
+  --font-logo: "Clarendon-XBold", serif;
+
+  --font-primary: "Clarendon-Bold", serif;
+  --color-secondary: var(--color-secondary);
+  --color-foreground: var(--color-foreground);
+  --color-primary: var(--color-primary);
+  --height-header: 3.5rem;
 }
 
 .slide-enter-active,

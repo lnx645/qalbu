@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-3 flex-col">
+  <div class="flex p-3 space-y-1.5 flex-col">
     <MenuItem href="/">
       <IconsHome class="text-xl font-medium" />
       <span>Beranda</span>

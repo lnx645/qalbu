@@ -3,7 +3,7 @@
     <teleport to="body">
       <div
         v-if="isOpen"
-        class="fixed inset-0 bg-primary/70 z-40 backdrop-blur"
+        class="fixed inset-0 bg-black/60 backdrop-blur-md z-40 backdrop-saturate-150"
       ></div>
       <AnimatePresence>
         <motion.div
@@ -12,7 +12,7 @@
           @dragEnd="endDrag"
           drag="x"
           :dragConstraints="{ left: 0, right: 0 }"
-          class="bg-white shadow-2xl fixed top-0 z-50 lg:max-w-xs lg:min-w-xs h-full w-70 max-w-70"
+          class="bg-white shadow-md fixed top-0 z-50 lg:max-w-xs lg:min-w-xs h-full w-70 max-w-70"
           :initial="{ x: -500 }"
           :animate="{ x: 0 }"
           :exit="{ x: -500 }"
@@ -22,7 +22,7 @@
             damping: 30,
           }"
         >
-          <header class="border-b border-neutral-200 bg-primary">
+          <header class="border-b border-neutral-200 bg-white">
             <div class="flex px-2 items-center">
               <HeaderLogo class="p-4" />
               <div class="ml-auto">
