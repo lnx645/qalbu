@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@plugin "@tailwindcss/typography";
 @font-face {
   font-family: "Clarendon-Bold";
   src: url("../fonts/Clarendon-Bold.ttf") format("ttf");
@@ -19,7 +19,7 @@ body {
 /* rgb(247, 247, 248) */
 :root {
   --color-secondary: #ebebeb;
-  --color-foreground: #ffffff;
+  --color-foreground: rgb(247, 247, 248);
   --color-primary: #001a56;
   --height-header: 3.5rem;
 }

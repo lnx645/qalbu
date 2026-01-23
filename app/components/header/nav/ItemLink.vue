@@ -7,8 +7,8 @@
     <template #default="{ isExactActive }">
       <component
         :class="{
-          'text-neutral-100': isExactActive,
-          'text-neutral-200': !isExactActive,
+          'lg:text-neutral-100 text-primary': isExactActive,
+          'lg:text-neutral-200': !isExactActive,
         }"
         v-if="isExactActive"
         :is="iconActive"
@@ -18,13 +18,13 @@
         class="text-xl"
         :is="icon"
         :class="{
-          'text-neutral-100': isExactActive,
-          'text-neutral-200': !isExactActive,
+          'lg:text-neutral-100 text-primary': isExactActive,
+          'lg:text-neutral-200': !isExactActive,
         }"
       />
       <div
         v-if="isExactActive"
-        class="absolute h-1 rounded-t-lg bottom-0 bg-neutral-50 w-full"
+        class="absolute h-1 rounded-t-lg bottom-0 bg-primary lg:bg-neutral-50 w-full"
       ></div>
     </template>
   </NuxtLink>
