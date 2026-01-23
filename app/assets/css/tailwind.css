@@ -16,20 +16,20 @@ body {
   @apply bg-foreground;
   font-family: "Poppins", sans-serif;
 }
+/* rgb(247, 247, 248) */
 :root {
   --color-secondary: #666666;
-  --color-foreground: rgb(247, 247, 248);
+  --color-foreground: #ffffff;
   --color-primary: #ff7f50;
   --height-header: 3.5rem;
 }
 @theme {
-  --font-logo: "Clarendon-XBold", serif;
-
-  --font-primary: "Clarendon-Bold", serif;
+  --font-logo: "Clarendon-XBold";
+  --font-primary: "Clarendon-Bold";
   --color-secondary: var(--color-secondary);
   --color-foreground: var(--color-foreground);
   --color-primary: var(--color-primary);
-  --height-header: 3.5rem;
+  --height-header: var(--height-header);
 }
 
 .slide-enter-active,

@@ -9,23 +9,23 @@ import IconsHomeFill from "~/components/icons/HomeFill.vue";
 import IconsBell from "~/components/icons/Bell.vue";
 </script>
 <template>
-  <nav class="flex gap-3 h-header items-center">
-    <HeaderNavItemLink :iconActive="IconsHomeFill" to="/" :icon="IconsHome">
+  <nav class="flex 2xl:gap-3 h-header items-center">
+    <HeaderNavItemLink :iconActive="IconsHomeFill" href="/" :icon="IconsHome">
       HOME
     </HeaderNavItemLink>
-    <HeaderNavItemLink to="/explore" :icon="IconsCompas">
+    <HeaderNavItemLink href="/explore" :icon="IconsCompas">
       COMPAS
     </HeaderNavItemLink>
     <HeaderNavItemLink
       :iconActive="IconsListsFill"
-      to="/reading-lists"
+      href="/reading-lists"
       :icon="IconsLists"
     >
       COMPAS
     </HeaderNavItemLink>
     <HeaderNavItemLink
       :icon-active="IconsBellFill"
-      to="/notif"
+      href="/notif"
       :icon="IconsBell"
     >
       COMPAS

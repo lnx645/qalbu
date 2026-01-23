@@ -8,6 +8,7 @@
         "@nuxt/image": "2.0.0",
         "@nuxtjs/tailwindcss": "6.14.0",
         "@pinia/nuxt": "0.11.3",
+        "@sglara/cn": "^1.0.0",
         "@tailwindcss/vite": "^4.1.18",
         "@vueuse/gesture": "^2.0.0",
         "@vueuse/nuxt": "14.1.0",
@@ -470,6 +471,8 @@
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.55.3", "", { "os": "win32", "cpu": "x64" }, "sha512-aPFONczE4fUFKNXszdvnd2GqKEYQdV5oEsIbKPujJmWlCI9zEsv1Otig8RKK+X9bed9gFUN6LAeN4ZcNuu4zjg=="],
 
+    "@sglara/cn": ["@sglara/cn@1.0.0", "", { "dependencies": { "clsx": "^1.2.1", "tailwind-merge": "^1.12.0" } }, "sha512-uo5RMzXVhS2XdsPYajVH349/eBxhLEoJOmScUuX0V5kesB8DueofOh64kgVR4v3/uZWJBpMYy5Eh9aIG+qG34Q=="],
+
     "@sindresorhus/is": ["@sindresorhus/is@7.2.0", "", {}, "sha512-P1Cz1dWaFfR4IR+U13mqqiGsLFf1KbayybWwdd2vfctdV6hDpUkgCY0nKOLLTMSoRd/jJNjtbqzf13K8DCCXQw=="],
 
     "@sindresorhus/merge-streams": ["@sindresorhus/merge-streams@4.0.0", "", {}, "sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ=="],
@@ -681,6 +684,8 @@
     "cliui": ["cliui@8.0.1", "", { "dependencies": { "string-width": "^4.2.0", "strip-ansi": "^6.0.1", "wrap-ansi": "^7.0.0" } }, "sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ=="],
 
     "clone": ["clone@2.1.2", "", {}, "sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w=="],
+
+    "clsx": ["clsx@1.2.1", "", {}, "sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg=="],
 
     "cluster-key-slot": ["cluster-key-slot@1.1.2", "", {}, "sha512-RMr0FhtfXemyinomL4hrWcYJxmX6deFdCxpJzhDttxgO1+bcCnkk+9drydLVDmAMG7NE6aN/fl4F7ucU/90gAA=="],
 
@@ -1485,6 +1490,8 @@
     "tagged-tag": ["tagged-tag@1.0.0", "", {}, "sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng=="],
 
     "tailwind-config-viewer": ["tailwind-config-viewer@2.0.4", "", { "dependencies": { "@koa/router": "^12.0.1", "commander": "^6.0.0", "fs-extra": "^9.0.1", "koa": "^2.14.2", "koa-static": "^5.0.0", "open": "^7.0.4", "portfinder": "^1.0.26", "replace-in-file": "^6.1.0" }, "peerDependencies": { "tailwindcss": "1 || 2 || 2.0.1-compat || 3" }, "bin": { "tailwind-config-viewer": "cli/index.js", "tailwindcss-config-viewer": "cli/index.js" } }, "sha512-icvcmdMmt9dphvas8wL40qttrHwAnW3QEN4ExJ2zICjwRsPj7gowd1cOceaWG3IfTuM/cTNGQcx+bsjMtmV+cw=="],
+
+    "tailwind-merge": ["tailwind-merge@1.14.0", "", {}, "sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ=="],
 
     "tailwindcss": ["tailwindcss@4.1.18", "", {}, "sha512-4+Z+0yiYyEtUVCScyfHCxOYP06L5Ne+JiHhY2IjR2KWMIWhJOYZKLSGZaP5HkZ8+bY0cxfzwDE5uOmzFXyIwxw=="],
 
